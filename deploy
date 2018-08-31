@@ -1,0 +1,8 @@
+#!/bin/sh      
+ssh root@142.93.18.168 <<EOF        
+ cd /home/lrbernardi/Desktop/FirstNodeCIProject/ideal-engine
+ git pull       
+ npm install --production       
+ pm2 restart all
+ exit       
+EOF
