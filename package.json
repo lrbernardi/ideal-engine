@@ -1,6 +1,6 @@
 {
   "name": "ideal-engine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "testing CI with jenkins and Digital Ocean",
   "main": "index.js",
   "scripts": {
