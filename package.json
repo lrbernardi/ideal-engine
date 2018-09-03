@@ -1,28 +1,13 @@
 {
-  "name": "ideal-engine",
-  "version": "1.0.1",
-  "description": "testing CI with jenkins and Digital Ocean",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lrbernardi/ideal-engine.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lrbernardi/ideal-engine/issues"
-  },
-  "homepage": "https://github.com/lrbernardi/ideal-engine#readme",
-  "dependencies": {
-    "express": "^4.16.3"
-  },
-  "devDependencies": {
-    "mocha": "^5.2.0",
-    "should": "^13.2.3",
-    "supertest": "^3.1.0"
-  }
+ "name": "node-app",
+ "description": "hello jenkins test app",
+ "version": "0.0.1",
+ "private": true,
+ "dependencies": {
+    "express": "3.12.0"
+ },
+ "devDependencies": {
+    "mocha": "1.20.1",
+    "supertest": "0.13.0"
+ }
 }

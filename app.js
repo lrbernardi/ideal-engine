@@ -1,8 +1,12 @@
+//importing node framework
 var express = require('express');
+ 
 var app = express();
-
-app.get('/',function(req,res) {
-  res.send("Hello World");
+//Respond with "hello world" for requests that hit our root "/"
+app.get('/', function (req, res) {
+ res.send('hello world');
 });
-
-app.listen(4000);
+//listen to port 3000 by default
+app.listen(process.env.PORT || 4000);
+ 
+module.exports = app;
